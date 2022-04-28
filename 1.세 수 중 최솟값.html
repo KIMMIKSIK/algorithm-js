@@ -1,0 +1,45 @@
+<!-- 나의 풀이 -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(a, b, c) {
+        let min = a;
+        if (min > b) {
+          min = b;
+        }
+        if (min > c) {
+          min = c;
+        }
+
+        return min;
+      }
+
+      console.log(solution(7, 5, 8));
+    </script>
+  </body>
+</html>
+
+<!-- 문제 답 -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>출력결과</title>
+  </head>
+  <body>
+    <script>
+      function solution(a, b, c) {
+        let answer;
+        if (a < b) answer = a;
+        else answer = b;
+        if (c < answer) answer = c;
+        return answer;
+      }
+
+      console.log(solution(2, 5, 1));
+    </script>
+  </body>
+</html>
