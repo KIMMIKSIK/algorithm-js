@@ -12,7 +12,7 @@ console.log(solution(13, 35, 21));
 // let max = Math.max(...list);
 
 // 문제 답
-
+//a,b,c 세 수를 먼저 더하고 최종 맥스를 뺀 값보다 큰지 확인하였다. 
 function solution(a, b, c) {
   let answer = "YES",
     max;
