@@ -1,7 +1,7 @@
 //나의 풀이
 function solution(a, b, c) {
   let answer = "yes";
-  if (a + b <= c || a + c <= b || b + c <= a) {
+  if (a + b < c || a + c < b || b + c < a) {
     answer = "no";
   }
   return answer;
