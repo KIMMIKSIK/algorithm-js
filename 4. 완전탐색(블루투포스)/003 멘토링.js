@@ -16,7 +16,6 @@ function solution(test) {
       }
     }
   }
-
   return answer;
 }
 
